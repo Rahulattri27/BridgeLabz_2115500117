@@ -13,6 +13,8 @@ Assignment 13,14(In built function) and Assignment 15(OOPs) done on 31-01-2025
 
 Assignment 15 (default and parmeterized constructor) on 02-02-2025
 
-Assignemnet 16(use of static, readonly,this and is operator) on 04-02-2025.
+Assignment 16(use of static, readonly,this and is operator) on 04-02-2025.
+
+Assignment 17,18 (Object Oriented Design, class,Sequence,Object Diagram) on 06-02-2025.
 
 

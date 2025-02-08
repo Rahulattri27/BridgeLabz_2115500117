@@ -17,4 +17,6 @@ Assignment 16(use of static, readonly,this and is operator) on 04-02-2025.
 
 Assignment 17,18 (Object Oriented Design, class,Sequence,Object Diagram) on 06-02-2025.
 
+Assignment 19 (Inheritance) on 08-02-2025.
+
 

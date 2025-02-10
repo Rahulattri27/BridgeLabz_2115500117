@@ -19,4 +19,5 @@ Assignment 17,18 (Object Oriented Design, class,Sequence,Object Diagram) on 06-0
 
 Assignment 19 (Inheritance) on 08-02-2025.
 
+Assignment 20(Encapsulation,Polymorphism,Abstraction) on 10-02-2025.
 

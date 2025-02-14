@@ -24,3 +24,6 @@ Assignment 20(Encapsulation,Polymorphism,Abstraction) on 10-02-2025.
 Assignment 21(Linked List) on 12-02-2025
 
 Assignment 22(Stacks,Queues,Hashmap) on 13-02-2025
+
+Assignment23(Sorting Algorithms) on 14-02-2025
+

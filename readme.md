@@ -27,3 +27,5 @@ Assignment 22(Stacks,Queues,Hashmap) on 13-02-2025
 
 Assignment23(Sorting Algorithms) on 14-02-2025
 
+Assignment 24 (Linear,Binary search, StreamReader,FileStream,StreamWriter) on 16-02-2025.
+

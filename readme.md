@@ -29,3 +29,5 @@ Assignment23(Sorting Algorithms) on 14-02-2025
 
 Assignment 24 (Linear,Binary search, StreamReader,FileStream,StreamWriter) on 16-02-2025.
 
+Assignment 25(Time Complexity of variuous algorithms and methods) on 17-02-2025.
+

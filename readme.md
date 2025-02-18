@@ -31,3 +31,5 @@ Assignment 24 (Linear,Binary search, StreamReader,FileStream,StreamWriter) on 16
 
 Assignment 25(Time Complexity of variuous algorithms and methods) on 17-02-2025.
 
+Assignment 26(Generic Classes and methods) on 18-02-2025.
+

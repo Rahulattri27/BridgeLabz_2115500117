@@ -33,3 +33,5 @@ Assignment 25(Time Complexity of variuous algorithms and methods) on 17-02-2025.
 
 Assignment 26(Generic Classes and methods) on 18-02-2025.
 
+Assignment 27(Collections both Generic and non Generic) on 19-02-2025.
+

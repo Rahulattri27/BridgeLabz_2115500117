@@ -35,3 +35,4 @@ Assignment 26(Generic Classes and methods) on 18-02-2025.
 
 Assignment 27(Collections both Generic and non Generic) on 19-02-2025.
 
+Assignment 28(Streams ,their comparisons, uses) on 20-02-2025.

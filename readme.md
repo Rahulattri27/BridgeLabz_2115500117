@@ -39,6 +39,6 @@ Assignment 28(Streams ,their comparisons, uses) on 20-02-2025.
 
 Assignment 29(Exceptions) on 21-02-2025.
 
-Assignment 30,31(Nunit and Regex) on 22-02-2025
+Assignment 30,31(Nunit and Regex) on 22-02-2025.
 
 Assignment 32,33(Reflection and annotation) on 24-02-2025.

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BridgeLabsAssignments\\NUnits\\Qn1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{142733CA-A22D-410C-80A7-1B8829EEB135}|Test1\\Test1.csproj|D:\\BridgeLabsAssignments\\NUnits\\Qn1\\test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142733CA-A22D-410C-80A7-1B8829EEB135}|Test1\\Test1.csproj|solutionrelative:test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142733CA-A22D-410C-80A7-1B8829EEB135}|Test1\\Test1.csproj|d:\\bridgelabsassignments\\nunits\\qn1\\test1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142733CA-A22D-410C-80A7-1B8829EEB135}|Test1\\Test1.csproj|solutionrelative:test1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EBD37FA-087F-4A3B-82D9-E6CB9BF68913}|ClassLibrary1\\ClassLibrary1.csproj|D:\\BridgeLabsAssignments\\NUnits\\Qn1\\classlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EBD37FA-087F-4A3B-82D9-E6CB9BF68913}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\BridgeLabsAssignments\\NUnits\\Qn1\\ClassLibrary1\\Class1.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Class1.cs",
+              "ToolTip": "D:\\BridgeLabsAssignments\\NUnits\\Qn1\\ClassLibrary1\\Class1.cs",
+              "RelativeToolTip": "ClassLibrary1\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:50:51.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "D:\\BridgeLabsAssignments\\NUnits\\Qn1\\Test1\\Calculator.cs",
+              "RelativeDocumentMoniker": "Test1\\Calculator.cs",
+              "ToolTip": "D:\\BridgeLabsAssignments\\NUnits\\Qn1\\Test1\\Calculator.cs",
+              "RelativeToolTip": "Test1\\Calculator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:46:43.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BridgeLabsAssignments\\NUnits\\Qn1\\Test1\\Program.cs",
+              "RelativeDocumentMoniker": "Test1\\Program.cs",
+              "ToolTip": "D:\\BridgeLabsAssignments\\NUnits\\Qn1\\Test1\\Program.cs",
+              "RelativeToolTip": "Test1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:46:00.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

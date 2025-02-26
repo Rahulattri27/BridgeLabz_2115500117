@@ -45,3 +45,5 @@ Assignment 32,33(Reflection and annotation) on 24-02-2025.
 
 Assignment 34 (CSV handling) on 25-02-2025.
 
+Assignment 35 (Json Handling) on 26-02-2025.
+

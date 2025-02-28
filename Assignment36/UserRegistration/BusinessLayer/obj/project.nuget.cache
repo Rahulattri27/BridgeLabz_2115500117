@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xZRJ6MUcJxmwGuIQTvP3vZd1ox8n8gy/Na+1ej296fM5I+kCdrxqmE5gQcZ25K86PUX4YbWb1AKpYm8ZK/Dn8g==",
+  "success": true,
+  "projectFilePath": "/Users/rahulkumarair/Projects/UserRegistration/BusinessLayer/BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/rahulkumarair/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/rahulkumarair/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

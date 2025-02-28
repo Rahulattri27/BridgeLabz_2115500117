@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{1B474FE3-4B71-4F27-984B-A0FA98D386CF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RepositoryLayer/Class1.cs">
+    <Files>
+      <File FileName="UserRegistration/Program.cs" />
+      <File FileName="UserRegistration/Properties/launchSettings.json" />
+      <File FileName="UserRegistration/appsettings.json" />
+      <File FileName="RepositoryLayer/Class1.cs" Line="1" Column="1" />
+      <File FileName="RepositoryLayer/Services/UserRegistrationRL.cs" Line="11" Column="4" />
+      <File FileName="BusinessLayer/Services/UserRegistrationBL.cs" />
+      <File FileName="UserRegistration/Controllers/UserRegistration.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UserRegistration" expanded="True">
+            <Node name="BusinessLayer" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="RepositoryLayer" expanded="True">
+              <Node name="Services" expanded="True" />
+              <Node name="Class1.cs" selected="True" />
+            </Node>
+            <Node name="UserRegistration" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ModelLayer FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.UserRegistration PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

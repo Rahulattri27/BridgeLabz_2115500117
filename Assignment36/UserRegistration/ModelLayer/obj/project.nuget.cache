@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "V5YKi6hz+KN0RSGmJDfy7PV3vZG9GxuD7zJCFgQwqu7yTCRd/ton7ezdzyrgzAnvjtGm59FymDqh1BOB9UkO3w==",
+  "success": true,
+  "projectFilePath": "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/rahulkumarair/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/rahulkumarair/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

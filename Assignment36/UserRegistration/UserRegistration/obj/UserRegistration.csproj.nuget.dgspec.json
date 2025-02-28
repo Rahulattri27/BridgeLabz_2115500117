@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rahulkumarair/Projects/UserRegistration/UserRegistration/UserRegistration.csproj": {}
+  },
+  "projects": {
+    "/Users/rahulkumarair/Projects/UserRegistration/BusinessLayer/BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rahulkumarair/Projects/UserRegistration/BusinessLayer/BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/BusinessLayer/BusinessLayer.csproj",
+        "packagesPath": "/Users/rahulkumarair/.nuget/packages/",
+        "outputPath": "/Users/rahulkumarair/Projects/UserRegistration/BusinessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rahulkumarair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj": {
+                "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj"
+              },
+              "/Users/rahulkumarair/Projects/UserRegistration/RepositoryLayer/RepositoryLayer.csproj": {
+                "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/RepositoryLayer/RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj",
+        "projectName": "ModelLayer",
+        "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj",
+        "packagesPath": "/Users/rahulkumarair/.nuget/packages/",
+        "outputPath": "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rahulkumarair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rahulkumarair/Projects/UserRegistration/RepositoryLayer/RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rahulkumarair/Projects/UserRegistration/RepositoryLayer/RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/RepositoryLayer/RepositoryLayer.csproj",
+        "packagesPath": "/Users/rahulkumarair/.nuget/packages/",
+        "outputPath": "/Users/rahulkumarair/Projects/UserRegistration/RepositoryLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rahulkumarair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj": {
+                "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rahulkumarair/Projects/UserRegistration/UserRegistration/UserRegistration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rahulkumarair/Projects/UserRegistration/UserRegistration/UserRegistration.csproj",
+        "projectName": "UserRegistration",
+        "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/UserRegistration/UserRegistration.csproj",
+        "packagesPath": "/Users/rahulkumarair/.nuget/packages/",
+        "outputPath": "/Users/rahulkumarair/Projects/UserRegistration/UserRegistration/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rahulkumarair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rahulkumarair/Projects/UserRegistration/BusinessLayer/BusinessLayer.csproj": {
+                "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/BusinessLayer/BusinessLayer.csproj"
+              },
+              "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj": {
+                "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/ModelLayer/ModelLayer.csproj"
+              },
+              "/Users/rahulkumarair/Projects/UserRegistration/RepositoryLayer/RepositoryLayer.csproj": {
+                "projectPath": "/Users/rahulkumarair/Projects/UserRegistration/RepositoryLayer/RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

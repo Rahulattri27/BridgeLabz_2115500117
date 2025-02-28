@@ -47,3 +47,5 @@ Assignment 34 (CSV handling) on 25-02-2025.
 
 Assignment 35 (Json Handling) on 26-02-2025.
 
+Assignment 36 (User Registration API project) on 28-02-2025.
+

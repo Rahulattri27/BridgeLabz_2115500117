@@ -49,3 +49,4 @@ Assignment 35 (Json Handling) on 26-02-2025.
 
 Assignment 36 (User Registration API project) on 28-02-2025.
 
+Assignment 37 (ORM and Nlog) on 01-03-2025-02-03-2025.

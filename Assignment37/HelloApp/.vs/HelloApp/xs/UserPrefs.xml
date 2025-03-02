@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{B9E40A45-09A9-4240-ABE7-309CEFE3630A}|Default">
+  <MonoDevelop.Ide.ItemProperties.HelloApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloApp/Program.cs">
+    <Files>
+      <File FileName="HelloApp/Controllers/WeatherForecastController.cs" Line="14" Column="32" />
+      <File FileName="HelloApp/Program.cs" Line="13" Column="1" />
+      <File FileName="HelloApp/Properties/launchSettings.json" Line="25" Column="29" />
+      <File FileName="RepositoryLayer/Interface/IRegisterHelloRL.cs" Line="8" Column="51" />
+      <File FileName="RepositoryLayer/Services/RegisterHelloRL.cs" Line="3" Column="33" />
+      <File FileName="BusinessLayer/Services/RegisterHelloBL.cs" Line="7" Column="34" />
+      <File FileName="BusinessLayer/Interface/IRegisterHelloBL.cs" Line="12" Column="1" />
+      <File FileName="ModelLayer/DTO/LoginDTO.cs" Line="7" Column="10" />
+      <File FileName="ModelLayer/DTO/ResponseBody.cs" Line="8" Column="44" />
+      <File FileName="RepositoryLayer/Entity/UserEntity.cs" Line="16" Column="39" />
+      <File FileName="RepositoryLayer/Context/HelloAppContext.cs" Line="16" Column="157" />
+      <File FileName="RepositoryLayer/Context/HelloAppContextFactory.cs" Line="13" Column="129" />
+      <File FileName="RepositoryLayer/appsettings.json" Line="3" Column="62" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HelloApp" expanded="True">
+            <Node name="HelloApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="RepositoryLayer" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Migrations" expanded="True" selected="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

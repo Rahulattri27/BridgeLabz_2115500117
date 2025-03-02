@@ -1,0 +1,90 @@
+2025-03-02 21:14:21.4882 [Info] Starting application... 
+2025-03-02 21:14:22.0599 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:14:22.0643 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:14:22.0656 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:14:22.0656 [Info] Hosting environment: Development 
+2025-03-02 21:14:22.0656 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:14:23.2099 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 21:14:23.2260 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:14:23.2403 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 21:14:23.3197 [Info] Business Layer: Fetching all employees. 
+2025-03-02 21:14:23.3197 [Info] Fetching all employees from the database. 
+2025-03-02 21:14:23.5409 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 21:14:23.7999 [Info] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 21:14:23.8318 [Info] Successfully retrieved 8 employees. 
+2025-03-02 21:14:23.8318 [Info] Business Layer: Retrieved 8 employees. 
+2025-03-02 21:14:23.8351 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 21:14:23.8921 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 650.3903ms 
+2025-03-02 21:14:23.8921 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:14:23.8948 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 685.5881ms 
+2025-03-02 21:16:31.4441 [Info] Starting application... 
+2025-03-02 21:16:32.0669 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:16:32.0710 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:16:32.0722 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:16:32.0722 [Info] Hosting environment: Development 
+2025-03-02 21:16:32.0722 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:16:33.3649 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 21:16:33.3829 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:16:33.3983 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 21:16:33.4911 [Info] Business Layer: Fetching all employees. 
+2025-03-02 21:16:33.4914 [Info] Fetching all employees from the database. 
+2025-03-02 21:16:33.7130 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 21:16:33.9812 [Info] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 21:16:34.0126 [Info] Successfully retrieved 8 employees. 
+2025-03-02 21:16:34.0126 [Info] Business Layer: Retrieved 8 employees. 
+2025-03-02 21:16:34.0159 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 21:16:34.0747 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 674.8326ms 
+2025-03-02 21:16:34.0747 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:16:34.0774 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 713.1802ms 
+2025-03-02 21:16:34.7588 [Info] Request starting HTTP/1.1 GET https://localhost:7243/favicon.ico - - 
+2025-03-02 21:16:34.7601 [Info] Request finished HTTP/1.1 GET https://localhost:7243/favicon.ico - - - 404 0 - 1.2716ms 
+2025-03-02 21:17:28.0100 [Info] Starting application... 
+2025-03-02 21:17:28.6014 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:17:28.6053 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:17:28.6065 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:17:28.6065 [Info] Hosting environment: Development 
+2025-03-02 21:17:28.6065 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:17:29.8844 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 21:17:29.9004 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:17:29.9153 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 21:17:29.9953 [Info] Business Layer: Fetching all employees. 
+2025-03-02 21:17:29.9953 [Info] Fetching all employees from the database. 
+2025-03-02 21:17:30.2168 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 21:17:30.4733 [Info] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 21:17:30.5058 [Info] Successfully retrieved 8 employees. 
+2025-03-02 21:17:30.5058 [Info] Business Layer: Retrieved 8 employees. 
+2025-03-02 21:17:30.5096 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 21:17:30.5702 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 652.326ms 
+2025-03-02 21:17:30.5702 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:17:30.5768 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 692.8078ms 
+2025-03-02 21:17:31.2208 [Info] Request starting HTTP/1.1 GET https://localhost:7243/favicon.ico - - 
+2025-03-02 21:17:31.2221 [Info] Request finished HTTP/1.1 GET https://localhost:7243/favicon.ico - - - 404 0 - 1.3008ms 
+2025-03-02 21:18:18.7706 [Info] Starting application... 
+2025-03-02 21:18:19.3524 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:18:19.3564 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:18:19.3577 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:18:19.3577 [Info] Hosting environment: Development 
+2025-03-02 21:18:19.3577 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:18:20.6278 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 21:18:20.6548 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:18:20.6722 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 21:18:20.7703 [Info] Business Layer: Fetching all employees. 
+2025-03-02 21:18:20.7703 [Info] Fetching all employees from the database. 
+2025-03-02 21:18:20.9947 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 21:18:21.2819 [Info] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 21:18:21.3135 [Info] Successfully retrieved 8 employees. 
+2025-03-02 21:18:21.3135 [Info] Business Layer: Retrieved 8 employees. 
+2025-03-02 21:18:21.3167 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 21:18:21.3771 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 703.4435ms 
+2025-03-02 21:18:21.3772 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:18:21.3798 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 752.8071ms 
+2025-03-02 21:18:22.0590 [Info] Request starting HTTP/1.1 GET https://localhost:7243/favicon.ico - - 
+2025-03-02 21:18:22.0605 [Info] Request finished HTTP/1.1 GET https://localhost:7243/favicon.ico - - - 404 0 - 1.4553ms 

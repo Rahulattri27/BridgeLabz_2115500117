@@ -1,0 +1,105 @@
+2025-03-02 21:21:16.8142 [Info] Starting application... 
+2025-03-02 21:21:17.4417 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:21:17.4458 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:21:17.4470 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:21:17.4472 [Info] Hosting environment: Development 
+2025-03-02 21:21:17.4472 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:21:18.7539 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 21:21:18.7858 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:21:18.7922 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 21:21:18.8866 [Info] Business Layer: Fetching all employees. 
+2025-03-02 21:21:18.8866 [Info] Fetching all employees from the database. 
+2025-03-02 21:21:19.1104 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 21:21:19.3693 [Info] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 21:21:19.4012 [Info] Successfully retrieved 8 employees. 
+2025-03-02 21:21:19.4012 [Info] Business Layer: Retrieved 8 employees. 
+2025-03-02 21:21:19.4045 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 21:21:19.4615 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 667.8357ms 
+2025-03-02 21:21:19.4615 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:21:19.4642 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 711.3700ms 
+2025-03-02 21:21:20.1378 [Info] Request starting HTTP/1.1 GET https://localhost:7243/favicon.ico - - 
+2025-03-02 21:21:20.1401 [Info] Request finished HTTP/1.1 GET https://localhost:7243/favicon.ico - - - 404 0 - 2.2474ms 
+2025-03-02 21:21:50.5089 [Info] Starting application... 
+2025-03-02 21:21:51.0986 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:21:51.1025 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:21:51.1036 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:21:51.1036 [Info] Hosting environment: Development 
+2025-03-02 21:21:51.1036 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:21:52.4206 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger - - 
+2025-03-02 21:21:52.4733 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger - - - 301 0 - 53.2885ms 
+2025-03-02 21:21:52.4773 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/index.html - - 
+2025-03-02 21:21:52.5674 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/index.html - - - 200 - text/html;charset=utf-8 90.0270ms 
+2025-03-02 21:21:52.5833 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/swagger-ui.css - - 
+2025-03-02 21:21:52.7174 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/swagger-ui-bundle.js - - 
+2025-03-02 21:21:52.7174 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/swagger-ui-standalone-preset.js - - 
+2025-03-02 21:21:52.7283 [Info] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-02 21:21:52.7283 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/swagger-ui.css - - - 200 144929 text/css 145.1680ms 
+2025-03-02 21:21:52.7283 [Info] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-02 21:21:52.7283 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 11.1465ms 
+2025-03-02 21:21:52.7853 [Info] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-02 21:21:52.7861 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 68.6376ms 
+2025-03-02 21:21:53.3390 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/v1/swagger.json - - 
+2025-03-02 21:21:53.3474 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/favicon-32x32.png - - 
+2025-03-02 21:21:53.3474 [Info] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-02 21:21:53.3474 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/favicon-32x32.png - - - 200 628 image/png 0.4757ms 
+2025-03-02 21:21:53.4172 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.1297ms 
+2025-03-02 21:22:04.3253 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 21:22:04.3287 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:22:04.3403 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 21:22:04.4443 [Info] Business Layer: Fetching all employees. 
+2025-03-02 21:22:04.4443 [Info] Fetching all employees from the database. 
+2025-03-02 21:22:04.6671 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 21:22:04.9368 [Info] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 21:22:04.9683 [Info] Successfully retrieved 8 employees. 
+2025-03-02 21:22:04.9683 [Info] Business Layer: Retrieved 8 employees. 
+2025-03-02 21:22:04.9705 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 21:22:04.9798 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 637.974ms 
+2025-03-02 21:22:04.9798 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:22:04.9818 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 656.5575ms 
+2025-03-02 21:22:35.3729 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/v1/swagger.json - - 
+2025-03-02 21:22:35.3754 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.5189ms 
+2025-03-02 21:22:36.0355 [Info] Request starting HTTP/1.1 GET https://localhost:7243/favicon.ico - - 
+2025-03-02 21:22:36.0361 [Info] Request finished HTTP/1.1 GET https://localhost:7243/favicon.ico - - - 404 0 - 0.6389ms 
+2025-03-02 21:23:11.6596 [Info] Starting application... 
+2025-03-02 21:23:12.3405 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:23:12.3447 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:23:12.3460 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:23:12.3462 [Info] Hosting environment: Development 
+2025-03-02 21:23:12.3462 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:23:13.4969 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/index.html - - 
+2025-03-02 21:23:13.5993 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/index.html - - - 200 - text/html;charset=utf-8 102.9087ms 
+2025-03-02 21:23:14.3085 [Info] Request starting HTTP/1.1 GET https://localhost:7243/swagger/v1/swagger.json - - 
+2025-03-02 21:23:14.3895 [Info] Request finished HTTP/1.1 GET https://localhost:7243/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.9690ms 
+2025-03-02 21:25:54.3967 [Info] Starting application... 
+2025-03-02 21:25:55.0709 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:25:55.0750 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:25:55.0763 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:25:55.0763 [Info] Hosting environment: Development 
+2025-03-02 21:25:55.0763 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:25:56.2379 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegistration - - 
+2025-03-02 21:25:56.2690 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegistration - - - 404 0 - 31.6309ms 
+2025-03-02 21:26:08.0795 [Info] Starting application... 
+2025-03-02 21:26:08.7261 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:26:08.7302 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:26:08.7315 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:26:08.7315 [Info] Hosting environment: Development 
+2025-03-02 21:26:08.7315 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:26:09.8086 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 21:26:09.8342 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:26:09.8396 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 21:26:09.9324 [Info] Business Layer: Fetching all employees. 
+2025-03-02 21:26:09.9324 [Info] Fetching all employees from the database. 
+2025-03-02 21:26:10.1568 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 21:26:10.4208 [Info] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 21:26:10.4523 [Info] Successfully retrieved 8 employees. 
+2025-03-02 21:26:10.4523 [Info] Business Layer: Retrieved 8 employees. 
+2025-03-02 21:26:10.4556 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 21:26:10.5140 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 672.9447ms 
+2025-03-02 21:26:10.5140 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:26:10.5167 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 708.8030ms 

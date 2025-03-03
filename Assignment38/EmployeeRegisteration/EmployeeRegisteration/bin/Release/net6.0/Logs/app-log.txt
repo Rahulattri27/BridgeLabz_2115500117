@@ -1,0 +1,100 @@
+2025-03-02 20:59:14.3678 [Info] Starting application... 
+2025-03-02 20:59:14.9872 [Info] Now listening on: https://localhost:7243 
+2025-03-02 20:59:14.9913 [Info] Now listening on: http://localhost:5059 
+2025-03-02 20:59:14.9925 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 20:59:14.9927 [Info] Hosting environment: Development 
+2025-03-02 20:59:14.9927 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 20:59:16.3064 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 20:59:16.3253 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 20:59:16.3409 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 20:59:16.4223 [Info] Business Layer: Fetching all employees. 
+2025-03-02 20:59:16.4223 [Info] Fetching all employees from the database. 
+2025-03-02 20:59:16.6577 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 20:59:16.9452 [Info] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 20:59:16.9776 [Info] Successfully retrieved 7 employees. 
+2025-03-02 20:59:16.9777 [Info] Business Layer: Retrieved 7 employees. 
+2025-03-02 20:59:16.9810 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 20:59:17.0398 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 697.3808ms 
+2025-03-02 20:59:17.0398 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 20:59:17.0427 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 736.9797ms 
+2025-03-02 20:59:17.7061 [Info] Request starting HTTP/1.1 GET https://localhost:7243/favicon.ico - - 
+2025-03-02 20:59:17.7077 [Info] Request finished HTTP/1.1 GET https://localhost:7243/favicon.ico - - - 404 0 - 1.5728ms 
+2025-03-02 21:10:42.8181 [Info] Starting application... 
+2025-03-02 21:10:43.4672 [Error] Application start failed System.IO.IOException: Failed to bind to address https://[::1]:7243: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass30_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration/Program.cs:line 52
+2025-03-02 21:11:03.8457 [Info] Starting application... 
+2025-03-02 21:11:04.4113 [Error] Application start failed System.IO.IOException: Failed to bind to address https://[::1]:7243: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass30_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration/Program.cs:line 52
+2025-03-02 21:13:43.2231 [Info] Starting application... 
+2025-03-02 21:13:43.8975 [Info] Now listening on: https://localhost:7243 
+2025-03-02 21:13:43.9019 [Info] Now listening on: http://localhost:5059 
+2025-03-02 21:13:43.9032 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-02 21:13:43.9034 [Info] Hosting environment: Development 
+2025-03-02 21:13:43.9034 [Info] Content root path: /Users/rahulkumarair/Projects/EmployeeRegisteration/EmployeeRegisteration 
+2025-03-02 21:13:45.0844 [Info] Request starting HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - 
+2025-03-02 21:13:45.0995 [Info] Executing endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:13:45.1143 [Info] Route matched with {action = "Get", controller = "EmployeeRegisteration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryLayer.Entity.EmployeeEntity]] Get() on controller EmployeeRegisteration.Controllers.EmployeeRegisterationController (EmployeeRegisteration). 
+2025-03-02 21:13:45.2064 [Info] Business Layer: Fetching all employees. 
+2025-03-02 21:13:45.2064 [Info] Fetching all employees from the database. 
+2025-03-02 21:13:45.4285 [Info] Entity Framework Core 6.0.36 initialized 'EmployeeRegisterationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 21:13:45.6979 [Info] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmpID], [e].[Email], [e].[Name], [e].[Salary]
+FROM [Employees] AS [e] 
+2025-03-02 21:13:45.7295 [Info] Successfully retrieved 8 employees. 
+2025-03-02 21:13:45.7295 [Info] Business Layer: Retrieved 8 employees. 
+2025-03-02 21:13:45.7328 [Info] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RepositoryLayer.Entity.EmployeeEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-02 21:13:45.7915 [Info] Executed action EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration) in 675.7632ms 
+2025-03-02 21:13:45.7915 [Info] Executed endpoint 'EmployeeRegisteration.Controllers.EmployeeRegisterationController.Get (EmployeeRegisteration)' 
+2025-03-02 21:13:45.7942 [Info] Request finished HTTP/1.1 GET https://localhost:7243/EmployeeRegisteration - - - 200 - application/json;+charset=utf-8 710.3959ms 

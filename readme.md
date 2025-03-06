@@ -53,3 +53,6 @@ Assignment 37 (ORM and Nlog) on 01-03-2025-02-03-2025.
 
 Assignment 38(Swagger and Logger) on 03-03-2025.
 
+Assignment 39(Rest APIs) on 04-03-2025.
+
+

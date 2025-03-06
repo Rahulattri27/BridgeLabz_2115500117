@@ -55,4 +55,6 @@ Assignment 38(Swagger and Logger) on 03-03-2025.
 
 Assignment 39(Rest APIs) on 04-03-2025.
 
+Assignment 40(Redis Cache) on 06-03-2025.
+
 

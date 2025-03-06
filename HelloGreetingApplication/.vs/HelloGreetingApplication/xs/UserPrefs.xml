@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{D7E041B4-161F-45CE-92EE-5BC4B0DDDFBD}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HelloGreetingApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RepositoryLayer/Services/GreetingRL.cs">
+    <Files>
+      <File FileName="HelloGreetingApplication/Controllers/HelloGreetingController.cs" />
+      <File FileName="HelloGreetingApplication/Program.cs" />
+      <File FileName="RepositoryLayer/Services/GreetingRL.cs" Line="67" Column="28" />
+      <File FileName="RepositoryLayer/Interface/IGreetingRL.cs" />
+      <File FileName="BusinessLayer/Interface/IGreetingBL.cs" />
+      <File FileName="BusinessLayer/Services/GreetingBL.cs" />
+      <File FileName="HelloGreetingApplication/Properties/launchSettings.json" />
+      <File FileName="HelloGreetingApplication/appsettings.json" />
+      <File FileName="ModelLayer/Model/GreetingModel.cs" />
+      <File FileName="RepositoryLayer/Context/HelloGreetingContextFactory.cs" />
+      <File FileName="RepositoryLayer/appsettings.json" />
+      <File FileName="HelloGreetingApplication/Logs/app-log-2025-03-06.log" />
+      <File FileName="RepositoryLayer/Context/HelloGreetingContext.cs" />
+      <File FileName="ModelLayer/Model/RequestBody.cs" />
+      <File FileName="ModelLayer/Model/ResponseModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HelloGreetingApplication" expanded="True">
+            <Node name="BusinessLayer">
+              <Node name="Interface" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="HelloGreetingApplication">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Logs" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="ModelLayer">
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="RepositoryLayer">
+              <Node name="Context" expanded="True" />
+              <Node name="Interface" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="GreetingRL.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

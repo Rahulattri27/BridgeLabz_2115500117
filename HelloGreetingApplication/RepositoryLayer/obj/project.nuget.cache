@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kmmYT+7cBQp5Le9Ydm387P6HLHSn7iqIFYnK56eoPIJ+m3dO0PLCTFipIsAaajlV2dRUlS9zWB/vBewmKOGaVg==",
+  "success": true,
+  "projectFilePath": "/Users/rahulkumarair/Desktop/capgemini/BridgeLabz/BridgeLabz_2115500117/HelloGreetingApplication/RepositoryLayer/RepositoryLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/rahulkumarair/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/rahulkumarair/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -57,4 +57,4 @@ Assignment 39(Rest APIs) on 04-03-2025.
 
 Assignment 40(Redis Cache) on 06-03-2025.
 
-
+Assignment 41(RabbitMQ and SMTP) on 07-03-2025

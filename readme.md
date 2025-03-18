@@ -60,3 +60,6 @@ Assignment 40(Redis Cache) on 06-03-2025.
 Assignment 41(RabbitMQ and SMTP) on 07-03-2025
 
 Assignment 42(Node js basics) on 17-03-2025.
+
+Assignment 43(Array and Map) on 18-03-2025.
+

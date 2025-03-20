@@ -63,3 +63,5 @@ Assignment 42(Node js basics) on 17-03-2025.
 
 Assignment 43(Array and Map) on 18-03-2025.
 
+Assignment 44(Html,css,javascript integration) on 20-03-2025.
+

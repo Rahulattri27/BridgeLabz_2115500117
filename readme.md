@@ -65,3 +65,5 @@ Assignment 43(Array and Map) on 18-03-2025.
 
 Assignment 44(Html,css,javascript integration) on 20-03-2025.
 
+Assignment 45(Basic angular , created HelloWorldAngular_2115500117 repository) on 21-03-2025.
+
